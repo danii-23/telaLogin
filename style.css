@@ -1,0 +1,76 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#a2a2a2,#252525);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+
+}
+
+.title {
+    font-size: 40px;
+}
+
+.title2 {
+    font-size: 40px;
+    align-items: center;
+    align-content: center;
+}
+
+.login-box label {
+    font-size: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+
+}
+
+button {
+    width: 120px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #5f5f5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:700px) {
+
+    .login-box {
+    background: white;
+    padding: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+
+}
+
+.cad {
+    font-size: 10px;
+}
+
+}
